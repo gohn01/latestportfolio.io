@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d6d9d9ca7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo1.png">
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- preloader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Perez Portfolio</title>
+</head>
+<body onload="move()">
+    <section class="container">
+        <div class="content-text">
+            <div id="preloader">
+                <div id="percent">1%</div>
+                <div id="bar">
+                    <div id="barconfrm"></div>
+                </div>
+            </div>
+            <section id="side-menu" class="sideMenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">CLOSE</a>
+                <div class="about-menu">
+                    <p class="aboutMe">A reliable, front-end developer able to multi task, handle pressure, work as a part of a team and most importantly willingness to learn and work. With infectious enthusiasm and creative designing.</p>
+                </div>
+                <div id="content-area">
+                    <span onclick="openNav()" class="about">ABOUT</span>
+                </div>
+            </section>
+            <div>
+                <div>
+                    <h1 class="alexis">Alexis John Perez</h1>
+                    <p class="developer">Front-end Developer</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <h1 class="first1 fade-in">MY FIRST</h1>
+            <h2 class="first2 fade-in">PORTFOLIO</h2>
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href="https://ajperez.netlify.app/"><img src="images/PORTFOLIO.png" alt="Portfolio"></a>
+            </div>  
+        </div>
+
+        <div class="second-project">
+            <h1 class="second1 fade-in">THE NEW</h1>
+            <h2 class="second2 fade-in">ETHICS TREND</h2>
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href="https://gohn01.github.io/mini-project-1.dnet.github.io/"><img src="images/DNET.png" alt="D'NET"></a>
+            </div>  
+        </div>
+
+        <div class="third-project">
+            <h1 class="third1 fade-in">CAFE</h1>
+            <h2 class="third2 fade-in">CHILL'N COFFEE</h2>
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href="https://gohn01.github.io/cafechillncoffee.github.io/"><img src="images/cafecoffee.png" alt="coffeechillncafe"></a>
+            </div>  
+        </div>
+
+
+
+        <div class="wrapper ">
+            <div class="main-coding ">
+                <div class="coding ">
+                    <h2>MY CODING SKILLS</h2>
+                    <div class="skills" id="skills">
+                        <div class="details">
+                            <span>HTML</span>
+                            <span class="num" data-val="70">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="html-bar"></div>
+                        </div>
+                    </div>
+        
+                    <div class="skills ">
+                        <div class="details">
+                            <span>CSS</span>
+                            <span class="num" data-val="60">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="css-bar" ></div>
+                        </div>
+                    </div>
+        
+                    <div class="skills">
+                        <div class="details">
+                            <span>JavaScript</span>
+                            <span class="num" data-val="40">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="js-bar"></div>
+                        </div>
+                    </div>
+        
+                    <div class="skills">
+                        <div class="details">
+                            <span>React Js</span>
+                            <span class="num" data-val="20">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="react-bar" ></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <div class="details">
+                            <span>GitHub</span>
+                            <span class="num" data-val="50">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="github-bar"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <div class="details">
+                            <span>MySQL</span>
+                            <span class="num" data-val="10">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="mysql-bar"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills">
+                        <div class="details">
+                            <span>Design</span>
+                            <span class="num" data-val="60">00%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="design-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="social-media">
+            <ul>
+                <li style="--i:6;--clr:#1877f2;"><a href="https://www.facebook.com/"><span><i class="fa-brands fa-facebook-f"></i></span>Facebook</a></li>
+                <li style="--i:5;--clr:#25d366;"><a href="https://web.whatsapp.com/"><span><i class="fa-brands fa-whatsapp"></i></span>Whapsapp</a></li>
+                <li style="--i:4;--clr:#000000;"><a href="https://www.tiktok.com/@alexisjohnperez23?fbclid=IwAR2JBt_Xd28x_PuBu3a6IWYIqv3KlQ0dFagb9Oqlkxwjyt05xtNrr8puPOs"><span><i class="fa-brands fa-tiktok"></i></span>Tiktok</a></li>
+                <li style="--i:3;--clr:#E1306C;"><a href="https://www.instagram.com/mr.juanperez/"><span><i class="fa-brands fa-instagram"></i></span>Instagram</a></li>
+                <li style="--i:2;--clr:#0a66fc;"><a href="https://www.linkedin.com/in/alexis-john-perez-b47764261/"><span><i class="fa-brands fa-linkedin"></i></span>Linkedin</a></li>
+                <li style="--i:1;--clr:#FFD93D;"><a href="alexis john perez - CV.pdf" download ><span><i class="fa-solid fa-circle-down"></i></span>Download CV</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        // VanillaTilt.init(document.querySelectorAll(".box"), {
+        //     max: 5,
+        //     speed: 50
+        // });
+    </script>
+
+    <script src="js/progress.js"></script>
+
+
+    <script>
+        document.addEventListener('mousemove', parallax);
+        function parallax(e){
+            this.querySelectorAll("").forEach(layer => {
+                let x = (window.innerWidth - e.pageX * 10) / 100;
+                let y = (window.innerHeight - e.pageY * 10) / 100;
+                layer.style.transform = `translate(${x}px,${y}px)`;
+            });
+        }
+    </script>
+</body>
+</html>
