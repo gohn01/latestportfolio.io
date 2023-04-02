@@ -5,7 +5,7 @@ function openNav(){
     document.querySelector(".about").style.display="none";
     document.querySelector(".closebtn").style.display="block";
     document.querySelector(".closebtn").style.transform="rotate(-90deg)";
-    document.querySelector(".closebtn").style.zIndex="100000";
+    document.querySelector(".closebtn").style.zIndex="100";
 }
 function closeNav(){
     document.getElementById("side-menu").style.width = "0";
@@ -22,7 +22,7 @@ function closeNav(){
         delay: 400
     });
 
-    ScrollReveal().reveal('.about, .closebtn', { delay: 4000, origin: 'left' });
+    ScrollReveal().reveal('.about, .closebtn', { delay: 4000, origin: 'left'});
     ScrollReveal().reveal('.alexis', { delay: 2000, origin: 'top' });
     ScrollReveal().reveal('.developer', { delay: 3000, origin: 'bottom' });
     // ScrollReveal().reveal('.about-menu', { delay: 500, origin: 'right' });
@@ -97,8 +97,6 @@ function frame(){
 //       document.getElementById("skills-percent").innerHTML = width + "%";
 //   }
 // }
-
-
 
 
 
